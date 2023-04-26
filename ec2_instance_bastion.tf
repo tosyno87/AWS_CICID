@@ -15,6 +15,6 @@ module "ec2_public" {
     Name = "Bastion Host"
   }
 
-  user_data = file("${path.module}/jumpbox-install.sh")
+  
 
 }
