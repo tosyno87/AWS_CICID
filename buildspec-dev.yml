@@ -27,8 +27,8 @@ phases:
     on-failure: ABORT   
     commands:
     # Project-1: AWS VPC, ASG, ALB, Route53, ACM, Security Groups and SNS 
-      - cd "$Desktop/CLOUD ENGINEER PROJECTS/TERRAFORM/aws cicid pipeline"
-      - ls -lrt "$TERRAFORM/aws cicid pipeline"
+      - cd "$Desktop/CLOUD ENGINEER PROJECTS/TERRAFORM/aws cicid pipeline/AWS_CICID"
+      - ls -lrt "$TERRAFORM/aws cicid pipeline/AWS_CICID"
       - terraform --version
       - terraform init -input=false --backend-config=dev.conf
       - terraform validate
