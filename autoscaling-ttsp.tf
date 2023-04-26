@@ -32,6 +32,6 @@ resource "aws_autoscaling_policy" "alb_target_requests_greater_than_yy" {
     }  
     target_value = 10.0
   }    
-   depends_on = [module.alb]
+  depends_on = [module.alb]
 }
 
